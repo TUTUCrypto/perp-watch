@@ -1,0 +1,10 @@
+data/
+*.exe
+verification/
+probe-result*.json
+release/
+*.zip
+*.log
+*.tmp
+*.bak
+.vs/

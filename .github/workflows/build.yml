@@ -1,0 +1,26 @@
+name: Windows build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build, test and package
+        shell: powershell
+        run: .\package.ps1
+      - name: Upload portable package
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: PerpWatch-windows
+          path: |
+            release/PerpWatch-v2.0.0-windows.zip
+            release/PerpWatch-v2.0.0-windows.zip.sha256
+          if-no-files-found: error

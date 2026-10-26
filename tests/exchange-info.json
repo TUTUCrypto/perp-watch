@@ -1,0 +1,9 @@
+{"symbols":[
+  {"symbol":"BTCUSDT","baseAsset":"BTC","quoteAsset":"USDT","contractType":"PERPETUAL","status":"TRADING","underlyingType":"COIN"},
+  {"symbol":"BTCUSDC","baseAsset":"BTC","quoteAsset":"USDC","contractType":"PERPETUAL","status":"TRADING","underlyingType":"COIN"},
+  {"symbol":"GOOGLUSDT","baseAsset":"GOOGL","quoteAsset":"USDT","contractType":"TRADIFI_PERPETUAL","status":"TRADING","underlyingType":"EQUITY"},
+  {"symbol":"XAUUSDT","baseAsset":"XAU","quoteAsset":"USDT","contractType":"TRADIFI_PERPETUAL","status":"TRADING","underlyingType":"COMMODITY"},
+  {"symbol":"SAMPLEUSD1","baseAsset":"SAMPLE","quoteAsset":"USD1","contractType":"PERPETUAL","status":"TRADING","underlyingType":"COIN"},
+  {"symbol":"BTCUSDT_261225","baseAsset":"BTC","quoteAsset":"USDT","contractType":"CURRENT_QUARTER","status":"TRADING","underlyingType":"COIN"},
+  {"symbol":"HALTEDUSDT","baseAsset":"HALTED","quoteAsset":"USDT","contractType":"PERPETUAL","status":"SETTLING","underlyingType":"COIN"}
+]}
